@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 18.75rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem;
+}
+
+.card__text {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 0.5rem;
+}
+
+.card__button {
+    background-color: #E83F57;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: #E83F57;
+    padding: 0.5rem 1rem;
+    margin-right: auto;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card__button--green {
+    background-color: #1ba300;
+}
